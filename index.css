@@ -1,0 +1,124 @@
+html, body, h3, h4 {
+    margin: 0
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+    width: 550px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #F8F8F8;
+    background-color: #ffff;
+}
+
+/* typography */
+
+.nameAge {
+    font-size: 32px;
+    line-height: 112%;
+}
+.bio {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 133%;
+    color: #B7B7B7;
+}
+
+.end-message {
+    color: #FA695A;
+    text-align: center;
+}
+
+/* layout */
+
+    /* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25em;
+    background-color: #FFFFFF;
+}
+
+.header-img-logo-style {
+    width: 82px;
+}
+
+.header-img-style {
+    width: 34px;
+    height: 100%;
+}
+
+    /* main */
+
+main {
+    padding: 0 8px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+}
+
+.app-container {
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.info-container {
+    position: relative;
+}
+
+.badge-style {
+    width: 234px;
+    border-radius: 10.3807px;
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 50px;
+    left: 15px;
+}
+
+.likeIsHidden {
+    display: none;
+}
+
+.nopeIsHidden {
+    display: none;
+}
+
+.dog-profile-info {
+    position: absolute;
+    bottom: 1em;
+    left: 1.25em;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1.5em;
+}
+
+.icon-style {
+    padding: 33px;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+.heart-hover:hover {
+    background: #DBFFF4;
+    box-shadow: 0px 10px 20px #CCF1E6;
+}
+
+.cross-hover:hover {
+    background: #FFE7EF;
+    box-shadow: 0px 10px 20px #EDD9DF;
+}
